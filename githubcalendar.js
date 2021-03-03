@@ -257,7 +257,7 @@ let loading_git = (color) => {
     let git_purple = ['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f',];
     let git_green = ['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620'];
     let git_blue = ['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c',];
-    let git_color = git_blue;
+    let git_color = git_green;
     append_div_gitcalendar(github_container, loading_git(git_color[4]));
     github_canlendar(git_user, git_color)})()
     
